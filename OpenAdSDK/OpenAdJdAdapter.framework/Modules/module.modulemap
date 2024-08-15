@@ -1,0 +1,6 @@
+framework module OpenAdJdAdapter {
+  umbrella header "OpenAdJdAdapter.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,51 @@
+//
+//  OpenAdNativeAd.h
+//  OpenAdSDK
+//
+//  Created by fyl on 2024/5/27.
+//
+
+#import <Foundation/Foundation.h>
+#import <UIKit/UIKit.h>
+#import "OpenAdMaterialMeta.h"
+
+
+NS_ASSUME_NONNULL_BEGIN
+
+@interface OpenAdNativeAd : NSObject
+
+
+/// 广告视图
+@property(strong,nonatomic,nullable)UIView *canvasView;
+
+/// 物料信息
+@property(strong,nonatomic,nullable)OpenAdMaterialMeta *materialMeta;
+
+/// 是否竞价
+@property(assign,nonatomic)BOOL isBidding;
+
+/// 价格
+@property(assign,nonatomic)NSInteger ecpm;
+
+/// 广告网络 tag
+@property(assign,nonatomic)NSInteger adnTag;
+
+/// 原始广告数据
+@property(strong,nonatomic)id originAdData;
+
+/// 是否是模板广告
+@property(assign,nonatomic)BOOL isTemplate;
+
+/// 适配器
+@property(weak,nonatomic)id adapter;
+
+/// 注册 容器视图和点击视图
+/// - Parameters:
+///   - containerView: 容器视图
+///   - clickableViews: 可点击视图
+- (void)registerContainer:(__kindof UIView *)containerView
+       withClickableViews:(NSArray<__kindof UIView *> *_Nullable)clickableViews;
+
+@end
+
+NS_ASSUME_NONNULL_END

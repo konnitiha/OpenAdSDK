@@ -1,0 +1,6 @@
+framework module OpenAdKsAdapter {
+  umbrella header "OpenAdKsAdapter.h"
+  export *
+
+  module * { export * }
+}

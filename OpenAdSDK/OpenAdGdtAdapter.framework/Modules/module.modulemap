@@ -1,0 +1,6 @@
+framework module OpenAdGdtAdapter {
+  umbrella header "OpenAdGdtAdapter.h"
+  export *
+
+  module * { export * }
+}

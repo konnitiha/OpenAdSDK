@@ -1,0 +1,6 @@
+framework module OpenAdCsjAdapter {
+  umbrella header "OpenAdCsjAdapter.h"
+  export *
+
+  module * { export * }
+}

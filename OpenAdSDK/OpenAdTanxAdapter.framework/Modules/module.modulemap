@@ -1,0 +1,6 @@
+framework module OpenAdTanxAdapter {
+  umbrella header "OpenAdTanxAdapter.h"
+  export *
+
+  module * { export * }
+}
