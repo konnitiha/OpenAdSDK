@@ -19,9 +19,6 @@ NS_ASSUME_NONNULL_BEGIN
 /// required 应用 id
 @property(nonatomic,copy)NSString *appID;
 
-/// optional 如聚合接入 tanx,则需要在这里设置 tanx 平台的 appkey
-@property(nonatomic,copy)NSString *tanxAppKey;
-
 /// optional 限制个性化广告推荐 0-不限制，1-限制，默认为0。
 @property(nonatomic,strong)NSNumber *limitPersonalAds;
 

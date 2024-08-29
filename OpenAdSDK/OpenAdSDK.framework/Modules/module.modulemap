@@ -1,0 +1,6 @@
+framework module OpenAdSDK {
+  umbrella header "OpenAdSDK.h"
+  export *
+
+  module * { export * }
+}

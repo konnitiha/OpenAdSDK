@@ -33,6 +33,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// banner 期望size
 @property(assign,nonatomic,readonly)CGSize adSize;
 
+/// 广告视图
+@property (nonatomic, strong,readonly)UIView *bannerView;
+
 //跳转控制器
 @property(nonatomic, weak,readonly) UIViewController *rootViewController;
 

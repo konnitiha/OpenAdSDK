@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = "OpenAdSDK"
-spec.version      = "2.5.6"
+spec.version      = "5.20.1"
 spec.summary      = "OpenAd广告聚合 SDK"
 spec.description  = <<-DESC
 OpenAd广告SDK是一个专为移动应用开发者设计的广告聚合和收益优化平台。它能够帮助开发者通过多种广告形式提高应用内广告的填充率和eCPM（每千次展示成本），从而增加广告收入
@@ -30,42 +30,51 @@ spec.subspec 'CsjAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdCsjAdapter.framework'
+     #ss.dependency 'Ads-CN-Beta','>= 6.1.1.0', '<= 6.3.0.3', :subspecs => ['BUAdSDK', 'CSJMediation']
+     ss.dependency 'Ads-CN-Beta/BUAdSDK','>= 6.1.1.0', '<= 6.3.0.3'
+     ss.dependency 'Ads-CN-Beta/CSJMediation','>= 6.1.1.0', '<= 6.3.0.3'
 end
 
 spec.subspec 'GdtAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdGdtAdapter.framework'
+     ss.dependency 'GDTMobSDK','>= 4.14.76', '<= 4.14.90'
 end
 
 spec.subspec 'AdxAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
-     ss.vendored_frameworks = 'OpenAdSDK/OpenAdxAdapter.framework'
+     ss.vendored_frameworks = 'OpenAdSDK/OpenAdAdxAdapter.framework'
+     ss.dependency 'OpenAdx'
 end
 
 spec.subspec 'KsAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdKsAdapter.framework'
+     ss.dependency 'KSAdSDK','>= 3.3.64.5', '<= 3.3.66.3'
 end
 
 spec.subspec 'TanxAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdTanxAdapter.framework'
+     ss.dependency 'TanxSDK','>= 3.5.3', '<= 3.5.7'
 end
 
 spec.subspec 'BaiduAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdBaiduAdapter.framework'
+     ss.dependency 'BaiduMobAdSDK','>= 5.352', '<= 5.360'
 end
 
 spec.subspec 'JdAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdJdAdapter.framework'
+     ss.dependency 'JADYun','2.6.2'
 end
   
 

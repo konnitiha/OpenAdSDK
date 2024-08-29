@@ -14,8 +14,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol OpenAdNativeAdManangeDelegate <OpenAdBaseDelegate>
 
+@optional
 - (void)onAdLoadSuccess:(NSArray<OpenAdNativeAd *> *_Nullable)nativeAdDataArray;
+- (void)onAdShow:(OpenAdNativeAd *)nativeAd;
+- (void)onAdClick:(OpenAdNativeAd *)nativeAd;
 - (void)onAdClosed:(OpenAdNativeAd *)nativeAd WithDislike:(NSString *)dislikeReason;
+
 @end
 
 @interface OpenAdNativeAdManange : OpenAdBaseAd

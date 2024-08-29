@@ -13,8 +13,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol OpenAdBaseDelegate <NSObject>
 
+//子类如有替代回调,则只回调子类回调
 @optional
-
 /// 广告加载成功回调,子类如有加载成功实现,则不回调onAdLoadSuccess
 - (void)onAdLoadSuccess;
 

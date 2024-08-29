@@ -23,6 +23,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 应用ID
 @property(strong,nonatomic)NSString *appId;
 
+
 /// 广告位ID
 @property(strong,nonatomic)NSString *slotId;
 
@@ -43,6 +44,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 上报用的，服务端唯一请求ID
 @property(strong,nonatomic)NSString *searchId;
+
+/// 金袋口令
+@property(strong,nonatomic)NSString *jdaiLink;
 
 - (void)setReqType:(NSString *)reqType;
 
@@ -113,6 +117,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 第三方APPID
 @property(copy,nonatomic)NSString *appId;
+
+/// 应用key
+@property(strong,nonatomic)NSString *appKey;
 
 /// 渠道ID（当前广告网络ID）
 @property(assign,nonatomic)NSInteger channel;
