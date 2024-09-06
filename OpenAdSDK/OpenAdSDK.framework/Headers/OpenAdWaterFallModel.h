@@ -136,11 +136,12 @@ NS_ASSUME_NONNULL_BEGIN
 
 @property(assign,nonatomic)int type;
 
-/// 广告类型：0：模板   1：自渲染 
+/// 广告类型：0：模板   1：自渲染      2:京媒渲染开屏   3:京媒渲染插屏
 @property(assign,nonatomic)int renderType;
 
 /// 插屏广告位       0:半屏 1:全屏
 /// 信息流广告位   0:普通 1:Draw
+/// 京东信息流广告位   2: 京媒渲染开屏 3:京媒渲染插屏
 @property(assign,nonatomic)int subType;
 
 /// 是否竞价

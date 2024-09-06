@@ -26,6 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 广告位 id
 @property (nonatomic, readonly) NSString *slotID;
 
+/// 跳过之间,部分 ADN 支持(京媒)
+@property(assign,nonatomic)NSInteger skipTime;
+
 /// 开屏广告底部视图,部分第三方支持
 @property(strong,nonatomic)UIView *bottomView;
 

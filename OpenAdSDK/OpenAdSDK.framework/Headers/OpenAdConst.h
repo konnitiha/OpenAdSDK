@@ -7,9 +7,13 @@
 
 #import <Foundation/Foundation.h>
 
+#define OPENAD_FIX_CATEGORY_BUG(name) @interface OPENAD_FIX_CATEGORY_BUG_##name: NSObject @end \
+                                  @implementation OPENAD_FIX_CATEGORY_BUG_##name @end
 
 FOUNDATION_EXPORT NSString *kOpenAdExtraPriceKey;
 FOUNDATION_EXPORT NSString *kOpenAdExtraDicRootViewControllerKey;
+FOUNDATION_EXPORT NSString *kOpenAdExtraDicSplashBottomViewKey;
+FOUNDATION_EXPORT NSString *kOpenAdExtraDicSplashSkipTimeKey;
 FOUNDATION_EXPORT NSString *kOpenAdExtraDicAdSizeKey;
 FOUNDATION_EXPORT NSString *kOpenAdExtraDicTimeoutKey;
 FOUNDATION_EXPORT NSString *kOpenAdExtraDicRewardVideoModelKey;

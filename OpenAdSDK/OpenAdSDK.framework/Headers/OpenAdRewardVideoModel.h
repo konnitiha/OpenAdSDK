@@ -17,15 +17,20 @@ NS_ASSUME_NONNULL_BEGIN
 __attribute__((objc_subclassing_restricted))
 @interface OpenAdRewardVideoModel : NSObject
 
+/// 用户 id
 @property (nonatomic, copy, nullable) NSString *userId;
 
+/// 奖励名称
 @property (nonatomic, copy, nullable) NSString *rewardName;
 
+
+/// 奖励数量
 @property (nonatomic, assign) NSInteger rewardAmount;
 
+/// 激励类型 (透传穿山甲)
 @property (nonatomic, assign) OpenAdRewardType rewardType;
 
-//对应第三方 custom 或者 extra
+//对应第三方的 custom 或者 extra
 @property (nonatomic, copy) NSString *extra;
 
 @end

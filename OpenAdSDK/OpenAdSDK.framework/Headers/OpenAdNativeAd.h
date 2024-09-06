@@ -46,6 +46,15 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)registerContainer:(__kindof UIView *)containerView
        withClickableViews:(NSArray<__kindof UIView *> *_Nullable)clickableViews;
 
+/// 注册 容器视图,点击视图,关闭视图 (部分 ADN 支持 :京媒)
+/// - Parameters:
+///   - containerView: 容器视图
+///   - clickableViews: 可点击视图
+///   - closableViews: 关闭视图
+- (void)registerContainer:(__kindof UIView *)containerView
+       withClickableViews:(NSArray<__kindof UIView *> *_Nullable)clickableViews
+        withClosableViews:(NSArray<__kindof UIView *> *_Nullable)closableViews;
+
 @end
 
 NS_ASSUME_NONNULL_END

@@ -4,13 +4,29 @@
 <dict>
 	<key>files</key>
 	<dict>
+		<key>Headers/OpenAdxAdapter.h</key>
+		<data>
+		kHdHwIQZn8yBYh4hmZ9/QYwgCkI=
+		</data>
 		<key>Info.plist</key>
 		<data>
 		rL/Q8IGhttE9weiPOa9bonejQVw=
 		</data>
 	</dict>
 	<key>files2</key>
-	<dict/>
+	<dict>
+		<key>Headers/OpenAdxAdapter.h</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			kHdHwIQZn8yBYh4hmZ9/QYwgCkI=
+			</data>
+			<key>hash2</key>
+			<data>
+			tGaaTD3JVqKU6zNiCWwyo/lKcblxpr4H+NkZU1nldR8=
+			</data>
+		</dict>
+	</dict>
 	<key>rules</key>
 	<dict>
 		<key>^.*</key>

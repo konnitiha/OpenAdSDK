@@ -17,9 +17,23 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol OpenAdRewardVideoDelegate <OpenAdBaseDelegate>
 
+@optional
+
+/// 视频下载完成
 - (void)onAdDidDownLoadVideo;
+
+/// 视频播放完成回调
+/// - Parameter error: 错误信息(正常播放完成 error 为 nil,播放出错触发回调并携带错误信息)
 - (void)onAdDidPlayFinish:(NSError *_Nullable)error;
+
+/// 奖励验证成功回调
+/// - Parameters:
+///   - rewardedVideoAd: 激励 model
+///   - verify: 验证状态
 - (void)onAdServerRewardDidSucceed:(OpenAdRewardVideoAd *)rewardedVideoAd verify:(BOOL)verify;
+
+/// 奖励验证失败回调
+/// - Parameter error: 失败原因
 - (void)onAdServerRewardDidFail:(NSError *_Nullable)error;
 
 @end
