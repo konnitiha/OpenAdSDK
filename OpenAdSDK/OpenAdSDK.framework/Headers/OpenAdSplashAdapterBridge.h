@@ -2,14 +2,13 @@
 //  OpenAdSplashAdapterBridge.h
 //  OpenAdSDK
 //
-//  Created by fyl on 2024/5/14.
+//  Created by fyl on 2023/5/14.
 //
 
-#import <Foundation/Foundation.h>
-
+#import "OpenAdBaseAdapterBridge.h"
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol OpenAdSplashAdapterBridge <NSObject>
+@protocol OpenAdSplashAdapterBridge <OpenAdBaseAdapterBridge>
 
 @required
 
@@ -75,6 +74,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 广告点击跳转使用的控制器
 - (UIViewController *)viewControllerForPresentingModalView;
+
 
 @end
 

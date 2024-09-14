@@ -2,7 +2,7 @@
 //  OpenAdNativeAd.h
 //  OpenAdSDK
 //
-//  Created by fyl on 2024/5/27.
+//  Created by fyl on 2023/5/27.
 //
 
 #import <Foundation/Foundation.h>

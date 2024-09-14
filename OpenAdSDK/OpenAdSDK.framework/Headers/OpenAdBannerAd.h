@@ -2,7 +2,7 @@
 //  OpenAdBannerAd.h
 //  OpenAdSDK
 //
-//  Created by fyl on 2024/5/21.
+//  Created by fyl on 2023/5/21.
 //
 
 #import "OpenAdBaseAd.h"
@@ -41,6 +41,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 初始化广告对象
 /// - Parameter slotID: 广告位 id
+/// - Parameter rootViewController: 跳转控制器
+/// - Parameter adSize: 广告期望尺寸
 - (instancetype)initWithSlotID:(NSString *)slotID rootViewController:(UIViewController *)rootViewController adSize:(CGSize)adSize;
 
 ///加载广告

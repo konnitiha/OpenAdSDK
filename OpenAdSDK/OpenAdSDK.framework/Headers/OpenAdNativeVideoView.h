@@ -2,7 +2,7 @@
 //  OpenAdNativeVideoView.h
 //  OpenAdSDK
 //
-//  Created by fyl on 2024/6/13.
+//  Created by fyl on 2023/6/13.
 //
 
 #import <UIKit/UIKit.h>

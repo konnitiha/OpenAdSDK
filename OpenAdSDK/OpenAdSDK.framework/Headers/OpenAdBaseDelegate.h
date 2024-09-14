@@ -2,7 +2,7 @@
 //  OpenAdBaseDelegate.h
 //  OpenAdSDK
 //
-//  Created by fyl on 2024/5/14.
+//  Created by fyl on 2023/5/14.
 //
 
 #import <Foundation/Foundation.h>

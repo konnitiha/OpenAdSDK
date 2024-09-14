@@ -2,7 +2,7 @@
 //  OpenAdSDK.h
 //  OpenAdSDK
 //
-//  Created by fyl on 2024/8/21.
+//  Created by fyl on 2023/8/21.
 //
 
 #import <Foundation/Foundation.h>

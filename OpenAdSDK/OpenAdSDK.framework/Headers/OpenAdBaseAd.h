@@ -2,7 +2,7 @@
 //  OpenAdBaseAd.h
 //  OpenAdSDK
 //
-//  Created by fyl on 2024/5/14.
+//  Created by fyl on 2023/5/14.
 //
 
 #import <Foundation/Foundation.h>
@@ -11,6 +11,7 @@
 #import "OpenAdInfo.h"
 #import "OpenAdBidResult.h"
 #import "OpenAdConst.h"
+#import "OpenAdError.h"
 
 
 NS_ASSUME_NONNULL_BEGIN
@@ -20,12 +21,14 @@ NS_ASSUME_NONNULL_BEGIN
 /// 控制器(在一次广告周期中 不可更改, 不然会引起未知错误)
 //@property(nonatomic, weak) UIViewController *rootViewController;
 
-
 ///  单位:分
 @property(assign,nonatomic,readonly)NSInteger ecpm;
 
-///   场景 ID
+///  场景 ID
 @property(assign,nonatomic)NSInteger sceneID;
+
+/// 请求 ID
+@property(copy,nonatomic)NSString *reqId;
 
 @end
 

@@ -8,12 +8,10 @@
 #import <Foundation/Foundation.h>
 #import "OpenAdConst.h"
 
-
-
 NS_ASSUME_NONNULL_BEGIN
 
 
-//里面设置相关需要初始化前设置
+//隐私设置需要初始化前设置
 @interface OpenAdConfigModel : NSObject
 
 /// required 应用 id
@@ -37,14 +35,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// optional 禁止采集设备信息:0-不禁止，1-禁止，默认为0。
 @property(nonatomic,strong)NSNumber *forbiddenDeviceInfo;
 
-/// optional 禁止 IDFA情况下,用户传入自定义字符串,透传三方广告平台
+/// optional 禁止 IDFA情况下,用户传入自定义字符串,透传给三方广告平台
 @property(nonatomic,copy)NSString *customIDFA;
 
 @end
 
 
-
-//里面设置相关可随时更改
 @interface OpenAdSDKManager : NSObject
 
 ///configModel
@@ -61,13 +57,6 @@ NS_ASSUME_NONNULL_BEGIN
 ///   - model: 配置, model.appID 为必传
 ///   - completionBlock:  初始化回调
 + (void)startWithConfigModel:(OpenAdConfigModel *)model completionBlock:(void (^)(NSError * _Nullable error))completionBlock;
-
-/// 设置调试模式,仅开发测试使用
-/// - Parameter isDebug: 是否调试模式
-+ (void)setDebugModel:(BOOL)isDebug;
-
-/// 是否调试模式
-+ (BOOL)isDebug;
 
 /// 控制台log级别
 /// 0 不打印  默认

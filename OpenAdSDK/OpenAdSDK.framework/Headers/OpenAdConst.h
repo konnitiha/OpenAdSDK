@@ -2,7 +2,7 @@
 //  OpenAdConst.h
 //  OpenAdSDK
 //
-//  Created by fyl on 2024/5/21.
+//  Created by fyl on 2023/5/21.
 //
 
 #import <Foundation/Foundation.h>
@@ -24,7 +24,6 @@ typedef NS_ENUM(NSInteger,OpenAdLogLevel) {
     OpenAdLogLevel_None  = 0, // 不打印
     OpenAdLogLevel_Debug,
 };
-
 
 
 typedef NS_ENUM(NSInteger,OpenAdADNChannel) {

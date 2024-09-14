@@ -2,14 +2,14 @@
 //  OpenAdRewardVideoAdapterBridge.h
 //  OpenAdSDK
 //
-//  Created by fyl on 2024/5/22.
+//  Created by fyl on 2023/5/22.
 //
 
-#import <Foundation/Foundation.h>
+#import "OpenAdBaseAdapterBridge.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol OpenAdRewardVideoAdapterBridge <NSObject>
+@protocol OpenAdRewardVideoAdapterBridge <OpenAdBaseAdapterBridge>
 
 @required
 /// 在广告加载完成时调用该方法，直接调用即可，无需做响应判断

@@ -2,7 +2,7 @@
 //  OpenAdSplashAd.h
 //  OpenAdSDK
 //
-//  Created by fyl on 2024/5/14.
+//  Created by fyl on 2023/5/14.
 //
 
 #import "OpenAdBaseAd.h"
@@ -29,7 +29,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 跳过之间,部分 ADN 支持(京媒)
 @property(assign,nonatomic)NSInteger skipTime;
 
-/// 开屏广告底部视图,部分第三方支持
+/// 开屏广告底部视图,部分第三方支持 最大高度不超过屏幕高度的 25%
 @property(strong,nonatomic)UIView *bottomView;
 
 /// 用于广告跳转的ViewController

@@ -2,7 +2,7 @@
 //  OpenAdWaterFallModel.h
 //  OpenAdSDK
 //
-//  Created by fyl on 2024/5/14.
+//  Created by fyl on 2023/5/14.
 //
 
 #import <Foundation/Foundation.h>
@@ -16,13 +16,11 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface OpenAdWaterFallModel : NSObject
 
-
 /// 状态码
 @property(assign,nonatomic)int code;
 
 /// 应用ID
 @property(strong,nonatomic)NSString *appId;
-
 
 /// 广告位ID
 @property(strong,nonatomic)NSString *slotId;
@@ -68,7 +66,6 @@ NS_ASSUME_NONNULL_BEGIN
 @property(strong,nonatomic)NSString *groupType;
 
 @end
-
 
 
 
@@ -121,7 +118,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 应用key
 @property(strong,nonatomic)NSString *appKey;
 
-/// 渠道ID（当前广告网络ID）
+/// 渠道号
 @property(assign,nonatomic)NSInteger channel;
 
 /// 价格：分

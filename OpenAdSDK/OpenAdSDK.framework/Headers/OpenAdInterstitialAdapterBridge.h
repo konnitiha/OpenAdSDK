@@ -2,14 +2,14 @@
 //  OpenAdInterstitialAdapterBridge.h
 //  OpenAdSDK
 //
-//  Created by fyl on 2024/5/17.
+//  Created by fyl on 2023/5/17.
 //
 
-#import <Foundation/Foundation.h>
+#import "OpenAdBaseAdapterBridge.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@protocol OpenAdInterstitialAdapterBridge <NSObject>
+@protocol OpenAdInterstitialAdapterBridge <OpenAdBaseAdapterBridge>
 
 @required
 /// 在广告加载完成时调用该方法，直接调用即可，无需做响应判断

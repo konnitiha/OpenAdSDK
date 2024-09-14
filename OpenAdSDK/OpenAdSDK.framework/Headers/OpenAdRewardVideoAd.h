@@ -2,7 +2,7 @@
 //  OpenAdRewardVideoAd.h
 //  OpenAdSDK
 //
-//  Created by fyl on 2024/5/22.
+//  Created by fyl on 2023/5/22.
 //
 
 #import "OpenAdBaseAd.h"
