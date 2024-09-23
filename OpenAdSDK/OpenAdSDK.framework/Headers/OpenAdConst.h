@@ -17,6 +17,7 @@ FOUNDATION_EXPORT NSString *kOpenAdExtraDicSplashSkipTimeKey;
 FOUNDATION_EXPORT NSString *kOpenAdExtraDicAdSizeKey;
 FOUNDATION_EXPORT NSString *kOpenAdExtraDicTimeoutKey;
 FOUNDATION_EXPORT NSString *kOpenAdExtraDicRewardVideoModelKey;
+FOUNDATION_EXPORT NSString *kOpenAdExtraDicRewardVideoAdMuteKey;
 FOUNDATION_EXPORT NSString *kOpenAdExtraDicNativeAdLoadCountKey;
 FOUNDATION_EXPORT NSString *kOpenAdExtraDicNativeAdMuteKey;
 

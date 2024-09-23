@@ -14,7 +14,7 @@
 #import <OpenAdSDK/OpenAdBannerAd.h>
 #import <OpenAdSDK/OpenAdInterstitialAd.h>
 #import <OpenAdSDK/OpenAdRewardVideoAd.h>
-#import <OpenAdSDK/OpenAdNativeAdManange.h>
+#import <OpenAdSDK/OpenAdNativeAdManager.h>
 
 #import <OpenAdSDK/OpenAdBaseAdapter.h>
 
@@ -36,4 +36,5 @@
 #import <OpenAdSDK/OpenAdPlatformInitConfig.h>
 #import <OpenAdSDK/OpenAdWaterFallModel.h>
 #import <OpenAdSDK/UIView+OpenAdExposure.h>
+
 

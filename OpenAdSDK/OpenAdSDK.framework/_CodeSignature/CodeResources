@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/OpenAdBannerAd.h</key>
 		<data>
-		YTTEWf65Uc/Bhq3b3rHRolIl2gY=
+		OBPCXnN1msCkBVLQiRFafcQITx0=
 		</data>
 		<key>Headers/OpenAdBannerAdapterBridge.h</key>
 		<data>
@@ -26,11 +26,11 @@
 		</data>
 		<key>Headers/OpenAdBaseAdapterBridge.h</key>
 		<data>
-		qivT/klWb1lYjqDXXmY0dDqfLUw=
+		FRW5iPsT6//tsN3g2Nbc7cn5FKQ=
 		</data>
 		<key>Headers/OpenAdBaseDelegate.h</key>
 		<data>
-		17qaUB07hyCgr/diBSglWp13ZRI=
+		Y4eGt+urfaHyYNe/9TV862qvtAM=
 		</data>
 		<key>Headers/OpenAdBidResult.h</key>
 		<data>
@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/OpenAdConst.h</key>
 		<data>
-		uJsklJv+BaBU1uSKzXZvcQRH0C4=
+		ZyE9x23hG77z6jvA/CDmE38XC9s=
 		</data>
 		<key>Headers/OpenAdCustomConfigAdapter.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/OpenAdInterstitialAd.h</key>
 		<data>
-		80yiZ/VE1MMgl4Y8TobCqvwJW+M=
+		3bk8ra0qRPEyMYOfcU+xO3ax2Qg=
 		</data>
 		<key>Headers/OpenAdInterstitialAdapterBridge.h</key>
 		<data>
@@ -72,9 +72,9 @@
 		<data>
 		0OQ3UypiRxHl1niwZN/moktNOgA=
 		</data>
-		<key>Headers/OpenAdNativeAdManange.h</key>
+		<key>Headers/OpenAdNativeAdManager.h</key>
 		<data>
-		rQevAbkTzFrkF+Aa3UTGlEocp1c=
+		8mGAyO7PaMS0rhHLwjVfAgsfYR0=
 		</data>
 		<key>Headers/OpenAdNativeAdapterBridge.h</key>
 		<data>
@@ -90,7 +90,7 @@
 		</data>
 		<key>Headers/OpenAdRewardVideoAd.h</key>
 		<data>
-		ttYYrDSI/znPDxvVGYk9K/SIK4g=
+		npgp0tpOeR2oU7ZeFlBW9WQG/2g=
 		</data>
 		<key>Headers/OpenAdRewardVideoAdapterBridge.h</key>
 		<data>
@@ -102,15 +102,15 @@
 		</data>
 		<key>Headers/OpenAdSDK.h</key>
 		<data>
-		mrWTwGWTOZZS+fBABMWBT8qCsXQ=
+		x/SSlKETqUc+NEsaOvJtRx4HBFE=
 		</data>
 		<key>Headers/OpenAdSDKManager.h</key>
 		<data>
-		RcdTROq5pAbd4Lat1jwoDCqjpfU=
+		uyFAhVMt4RGdobkBU43NTaThLA0=
 		</data>
 		<key>Headers/OpenAdSplashAd.h</key>
 		<data>
-		Kh/4RwchAGAZ4EWSqGL88ME/KSE=
+		kZbQ+azETgBN76dQeBhr0XmRaZU=
 		</data>
 		<key>Headers/OpenAdSplashAdapterBridge.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		NeiXMVtfoYd3CKrVy5a7RHHtiFA=
+		iLl+//RPQu0/AYYzoMB/ygI5/Kk=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -150,11 +150,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YTTEWf65Uc/Bhq3b3rHRolIl2gY=
+			OBPCXnN1msCkBVLQiRFafcQITx0=
 			</data>
 			<key>hash2</key>
 			<data>
-			nAYCtD9MUvDpJE+VgPDSPMP4prmCb3ofU7o1sl1EDSY=
+			Aqjf1c9RvUnL/3sYAWFwghEoafywHNCKFB5yPOMcUrI=
 			</data>
 		</dict>
 		<key>Headers/OpenAdBannerAdapterBridge.h</key>
@@ -194,22 +194,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			qivT/klWb1lYjqDXXmY0dDqfLUw=
+			FRW5iPsT6//tsN3g2Nbc7cn5FKQ=
 			</data>
 			<key>hash2</key>
 			<data>
-			J+V5sGue4uMjku0z8+PpSPUHTAeL5OhQljdIRCl/4qE=
+			mFIOYW5q9C64Gs4cXaNmhF41PIQKJdcQGG4Sau6g7Y0=
 			</data>
 		</dict>
 		<key>Headers/OpenAdBaseDelegate.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			17qaUB07hyCgr/diBSglWp13ZRI=
+			Y4eGt+urfaHyYNe/9TV862qvtAM=
 			</data>
 			<key>hash2</key>
 			<data>
-			EaiX619PAkaF/PcAVoraezzRPu/RygGz8iFuqTpCA30=
+			mewfhrfmacZs0WDuvZ4PiT5EH/+mX6kB8B9fSy6RGco=
 			</data>
 		</dict>
 		<key>Headers/OpenAdBidResult.h</key>
@@ -227,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uJsklJv+BaBU1uSKzXZvcQRH0C4=
+			ZyE9x23hG77z6jvA/CDmE38XC9s=
 			</data>
 			<key>hash2</key>
 			<data>
-			GpQyj9M99UOwWwHpV0eygqsjwLyNGxAGqDlQs1I0neY=
+			9+FggqI0VYBh8yJFFCIQaNk3t3wrEWMLiD+LXA3Lei4=
 			</data>
 		</dict>
 		<key>Headers/OpenAdCustomConfigAdapter.h</key>
@@ -271,11 +271,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			80yiZ/VE1MMgl4Y8TobCqvwJW+M=
+			3bk8ra0qRPEyMYOfcU+xO3ax2Qg=
 			</data>
 			<key>hash2</key>
 			<data>
-			Qrp5EaDi4u3LXKL414vNjMJJE/KmX//No5847CtSxQU=
+			eKz1Y8EwElzUyiz9DyPLf6hAxXFFjkKhx6SLP+OsRYA=
 			</data>
 		</dict>
 		<key>Headers/OpenAdInterstitialAdapterBridge.h</key>
@@ -322,15 +322,15 @@
 			E99xkmOs42ekOs3rPh9aGltsRTgAJ0vB++WN8encRRY=
 			</data>
 		</dict>
-		<key>Headers/OpenAdNativeAdManange.h</key>
+		<key>Headers/OpenAdNativeAdManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			rQevAbkTzFrkF+Aa3UTGlEocp1c=
+			8mGAyO7PaMS0rhHLwjVfAgsfYR0=
 			</data>
 			<key>hash2</key>
 			<data>
-			w+JeW5YjHp2+EP209F071MVd5K5DjSGP41Lx1hGuaA8=
+			o7eRxfoRAQLSOBaB+JDxkjTrJjWPKBQDX80mv8DvYdE=
 			</data>
 		</dict>
 		<key>Headers/OpenAdNativeAdapterBridge.h</key>
@@ -370,11 +370,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ttYYrDSI/znPDxvVGYk9K/SIK4g=
+			npgp0tpOeR2oU7ZeFlBW9WQG/2g=
 			</data>
 			<key>hash2</key>
 			<data>
-			mTQSYo2tF/HborceexMlKj9PI9j80O8ff9RRqQKqqvw=
+			HjnplZhE4MeDAAskpRwmXPiG2F+j4+FNhUzeU726nQ0=
 			</data>
 		</dict>
 		<key>Headers/OpenAdRewardVideoAdapterBridge.h</key>
@@ -403,33 +403,33 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			mrWTwGWTOZZS+fBABMWBT8qCsXQ=
+			x/SSlKETqUc+NEsaOvJtRx4HBFE=
 			</data>
 			<key>hash2</key>
 			<data>
-			dYGAn3RnbJgBaIdk7b0tLnwhGPzqOLK7lc3ccWnyg+s=
+			XG6rJvyvtnt8crZ7HilfsoFeESfKyvnB2N0pXjD4uBM=
 			</data>
 		</dict>
 		<key>Headers/OpenAdSDKManager.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			RcdTROq5pAbd4Lat1jwoDCqjpfU=
+			uyFAhVMt4RGdobkBU43NTaThLA0=
 			</data>
 			<key>hash2</key>
 			<data>
-			RPHM/7aS1kA82767nYPJ1xvkLLLpngFatb52eML5iF0=
+			fslCQv3hF3LnTbV7pmATTU/wmC6qavdcrKJA+9zshCY=
 			</data>
 		</dict>
 		<key>Headers/OpenAdSplashAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			Kh/4RwchAGAZ4EWSqGL88ME/KSE=
+			kZbQ+azETgBN76dQeBhr0XmRaZU=
 			</data>
 			<key>hash2</key>
 			<data>
-			94ttVo7cZv4hQA9C4Ou4yEXAD/YFUfd7dpfMzXf8Nr8=
+			tRIq8jRbY8Nm8cF9K0a3Ocen88AyrsOfSnOqcyfnFJg=
 			</data>
 		</dict>
 		<key>Headers/OpenAdSplashAdapterBridge.h</key>

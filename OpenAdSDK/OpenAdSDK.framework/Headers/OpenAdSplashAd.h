@@ -7,11 +7,34 @@
 
 #import "OpenAdBaseAd.h"
 #import "OpenAdBaseDelegate.h"
+@class OpenAdSplashAd;
 
 NS_ASSUME_NONNULL_BEGIN
 
 @protocol OpenAdSplashDelegate <OpenAdBaseDelegate>
-//见 OpenAdBaseDelegate
+@optional
+/// 广告加载成功回调
+/// - Parameter splashAd: 广告对象
+- (void)onSplashAdLoadSuccess:(OpenAdSplashAd *)splashAd;
+
+/// 加载失败回调
+/// - Parameter splashAd: 广告对象
+/// - Parameter error: 错误信息,透传三方 error
+- (void)onSplashAdLoadFailed:(OpenAdSplashAd *)splashAd error:(NSError *)error;
+
+/// 广告展示回调
+/// - Parameter splashAd: 广告对象
+/// - Parameter info: 广告信息
+- (void)onSplashAdShow:(OpenAdSplashAd *)splashAd withInfo:(OpenAdInfo *)info;
+
+/// 广告点击回调
+/// - Parameter splashAd: 广告对象
+- (void)onSplashAdClick:(OpenAdSplashAd *)splashAd;
+
+/// 广告关闭回调
+/// - Parameter splashAd: 广告对象
+/// - Parameter dislikeReason: 关闭原因,预留
+- (void)onSplashAdClose:(OpenAdSplashAd *)splashAd withDislike:(NSString *)dislikeReason;
 @end
 
 

@@ -11,7 +11,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 @protocol OpenAdBaseAdapterBridge <NSObject>
 
-
+@optional
 /// 上报
 /// - Parameters:
 ///   - adapter:  adapter
