@@ -49,7 +49,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 广告位 id
 @property (nonatomic, readonly) NSString *slotID;
 
-/// 跳过之间,部分 ADN 支持(京媒)
+/// 跳过时间,部分 ADN 支持(京媒)
 @property(assign,nonatomic)NSInteger skipTime;
 
 /// 开屏广告底部视图,部分第三方支持 最大高度不超过屏幕高度的 25%
