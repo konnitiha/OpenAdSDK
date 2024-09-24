@@ -60,7 +60,7 @@ spec.subspec 'TanxAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdTanxAdapter.framework'
-     ss.dependency 'TanxSDK','>= 3.5.3', '<= 3.5.7'
+     ss.dependency 'TanxSDK','>= 3.5.3', '<= 3.6.0'
 end
 
 spec.subspec 'BaiduAdapter' do |ss|
