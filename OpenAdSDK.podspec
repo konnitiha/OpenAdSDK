@@ -1,7 +1,8 @@
 Pod::Spec.new do |spec|
 spec.name         = "OpenAdSDK"
-spec.version      = "5.20.5"
+spec.version      = "5.20.6"
 spec.summary      = "OpenAd广告聚合 SDK"
+spec.notes        = "如TankSDK 3.6.0版本,加载开屏失败,可前往https://github.com/Alimama-TanxSDK/TanxSDK.git 下载其他版本"
 spec.description  = <<-DESC
 OpenAd广告SDK是一个专为移动应用开发者设计的广告聚合和收益优化平台。它能够帮助开发者通过多种广告形式提高应用内广告的填充率和eCPM（每千次展示成本），从而增加广告收入
 DESC
@@ -53,7 +54,7 @@ spec.subspec 'KsAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdKsAdapter.framework'
-     ss.dependency 'KSAdSDK','>= 3.3.64.5', '<= 3.3.67'
+     ss.dependency 'KSAdSDK','>= 3.3.64.5', '<= 3.3.69'
 end
 
 spec.subspec 'TanxAdapter' do |ss|
