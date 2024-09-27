@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = "OpenAdSDK"
-spec.version      = "5.20.5"
+spec.version      = "5.20.6"
 spec.summary      = "OpenAd广告聚合 SDK"
 spec.description  = <<-DESC
 OpenAd广告SDK是一个专为移动应用开发者设计的广告聚合和收益优化平台。它能够帮助开发者通过多种广告形式提高应用内广告的填充率和eCPM（每千次展示成本），从而增加广告收入
@@ -13,12 +13,10 @@ spec.platform     = :ios, '12.0'
 spec.ios.deployment_target = '12.0'
 spec.requires_arc = true
 spec.frameworks = ["Foundation", "UIKit", "MobileCoreServices", "Security", "SystemConfiguration", "CoreTelephony", "AdSupport", "WebKit", "Accelerate", "CoreMotion"]
-#spec.source_files = "OpenAdxSDK/OpenAdx.framework/Headers/*.{h,m}"
 spec.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC'],'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 spec.libraries = ["z", "resolv.9", "sqlite3", "c++", "c++abi", "resolv"]
 valid_archs = ['x86_64', 'arm64']
 spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'x86_64 arm64' }
-#spec.ios.vendored_frameworks = 'OpenAdxSDK/OpenAdx.framework'
 spec.default_subspecs = 'OpenAdSDK'
 
 spec.subspec 'OpenAdSDK' do |ss|
@@ -53,7 +51,7 @@ spec.subspec 'KsAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdKsAdapter.framework'
-     ss.dependency 'KSAdSDK','>= 3.3.64.5', '<= 3.3.67'
+     ss.dependency 'KSAdSDK','>= 3.3.64.5', '<= 3.3.69'
 end
 
 spec.subspec 'TanxAdapter' do |ss|

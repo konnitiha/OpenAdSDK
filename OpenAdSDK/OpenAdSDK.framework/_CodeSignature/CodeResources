@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/OpenAdConst.h</key>
 		<data>
-		ZyE9x23hG77z6jvA/CDmE38XC9s=
+		k9fPXLrjZDBlvZdWziUmkMJjSB8=
 		</data>
 		<key>Headers/OpenAdCustomConfigAdapter.h</key>
 		<data>
@@ -54,7 +54,7 @@
 		</data>
 		<key>Headers/OpenAdInterstitialAd.h</key>
 		<data>
-		3bk8ra0qRPEyMYOfcU+xO3ax2Qg=
+		212vHkx5cG3rIlizZmh3t4/ddBI=
 		</data>
 		<key>Headers/OpenAdInterstitialAdapterBridge.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		O47cVKCVw+lk3rLXI8zrsem6Zr4=
+		LUhe8qtik+NeAsjCRgDcI1/l3cs=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -227,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ZyE9x23hG77z6jvA/CDmE38XC9s=
+			k9fPXLrjZDBlvZdWziUmkMJjSB8=
 			</data>
 			<key>hash2</key>
 			<data>
-			9+FggqI0VYBh8yJFFCIQaNk3t3wrEWMLiD+LXA3Lei4=
+			DUNyBbC4gpTNRopYgRtf8IYByIdC4U4TSa5rseOeZv8=
 			</data>
 		</dict>
 		<key>Headers/OpenAdCustomConfigAdapter.h</key>
@@ -271,11 +271,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			3bk8ra0qRPEyMYOfcU+xO3ax2Qg=
+			212vHkx5cG3rIlizZmh3t4/ddBI=
 			</data>
 			<key>hash2</key>
 			<data>
-			eKz1Y8EwElzUyiz9DyPLf6hAxXFFjkKhx6SLP+OsRYA=
+			bLlt31xIn5GajGpwLhW2L8PIVFLi96KUH6Yi77MT6xM=
 			</data>
 		</dict>
 		<key>Headers/OpenAdInterstitialAdapterBridge.h</key>

@@ -45,11 +45,15 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 广告代理
 @property (nonatomic,weak) id <OpenAdInterstitialDelegate> delegate;
+
 /// 广告是否可用
 @property (nonatomic, readonly) BOOL isAdReady;
 
 /// 广告位 id
 @property (nonatomic, readonly) NSString *slotID;
+
+/// 视频广告是否静音,默认 NO
+@property(assign,nonatomic)BOOL muteIfCan;
 
 /// 用于广告跳转的ViewController
 @property(nonatomic, weak,readonly) UIViewController *rootViewController;
