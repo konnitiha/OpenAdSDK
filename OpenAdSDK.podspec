@@ -13,7 +13,7 @@ spec.platform     = :ios, '12.0'
 spec.ios.deployment_target = '12.0'
 spec.requires_arc = true
 spec.frameworks = ["Foundation", "UIKit", "MobileCoreServices", "Security", "SystemConfiguration", "CoreTelephony", "AdSupport", "WebKit", "Accelerate", "CoreMotion","StoreKit", "AVFoundation", "MediaPlayer", "CoreMedia","CoreLocation", "AVKit","CoreGraphics"]
-spec.resources = ['OpenAdSDK/OpenAdSDK.bundle']
+
 spec.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC'],'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 spec.libraries = ["z", "resolv.9", "sqlite3", "c++", "c++abi", "resolv"]
 valid_archs = ['x86_64', 'arm64']
@@ -23,6 +23,7 @@ spec.default_subspecs = 'OpenAdSDK'
 spec.subspec 'OpenAdSDK' do |ss|
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdSDK.framework'
+     ss.resources = ['OpenAdSDK/OpenAdSDK.bundle']
   end
   
 spec.subspec 'CsjAdapter' do |ss|
