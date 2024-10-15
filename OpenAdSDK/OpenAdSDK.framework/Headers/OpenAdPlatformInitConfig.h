@@ -72,6 +72,24 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly) NSString *customNativeAdapterClassName;
 
 
+//透传adx
+/// optional
+/*
+ 当前手机上的安装app列表,一个字符串数组
+ */
+@property(nonatomic,strong)NSArray<NSString *> *appList;
+
+/// optional
+/*
+ CAID 数组对象 数组元素为 dic 格式如下:
+ @[@{
+ @"caid":@"Caid id",
+ @"version":@"Caid version"
+ }];
+ */
+@property(nonatomic,strong)NSArray *CAIDList;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

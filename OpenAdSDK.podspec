@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = "OpenAdSDK"
-spec.version      = "5.20.7"
+spec.version      = "5.21.0"
 spec.summary      = "OpenAd广告聚合 SDK"
 spec.description  = <<-DESC
 OpenAd广告SDK是一个专为移动应用开发者设计的广告聚合和收益优化平台。它能够帮助开发者通过多种广告形式提高应用内广告的填充率和eCPM（每千次展示成本），从而增加广告收入
@@ -12,7 +12,8 @@ spec.source       = { :git => "https://github.com/konnitiha/OpenAdSDK.git", :tag
 spec.platform     = :ios, '12.0'
 spec.ios.deployment_target = '12.0'
 spec.requires_arc = true
-spec.frameworks = ["Foundation", "UIKit", "MobileCoreServices", "Security", "SystemConfiguration", "CoreTelephony", "AdSupport", "WebKit", "Accelerate", "CoreMotion"]
+spec.frameworks = ["Foundation", "UIKit", "MobileCoreServices", "Security", "SystemConfiguration", "CoreTelephony", "AdSupport", "WebKit", "Accelerate", "CoreMotion","StoreKit", "AVFoundation", "MediaPlayer", "CoreMedia","CoreLocation", "AVKit","CoreGraphics"]
+spec.resources = ['OpenAdxSDK/OpenAdSDK.bundle']
 spec.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC'],'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 spec.libraries = ["z", "resolv.9", "sqlite3", "c++", "c++abi", "resolv"]
 valid_archs = ['x86_64', 'arm64']
@@ -38,13 +39,6 @@ spec.subspec 'GdtAdapter' do |ss|
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdGdtAdapter.framework'
      ss.dependency 'GDTMobSDK','>= 4.14.76', '<= 4.15.02'
-end
-
-spec.subspec 'AdxAdapter' do |ss|
-     ss.dependency 'OpenAdSDK/OpenAdSDK'
-     ss.ios.deployment_target = '12.0'
-     ss.vendored_frameworks = 'OpenAdSDK/OpenAdAdxAdapter.framework'
-     ss.dependency 'OpenAdx','>=2.0.1'
 end
 
 spec.subspec 'KsAdapter' do |ss|

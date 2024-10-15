@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/OpenAdPlatformInitConfig.h</key>
 		<data>
-		0SxiCrMaQslZs5Ni6h+kKLuOd18=
+		QO3Xe5JrIuDYgfL8CA1O51dLMOk=
 		</data>
 		<key>Headers/OpenAdRewardVideoAd.h</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Headers/OpenAdSDKManager.h</key>
 		<data>
-		uyFAhVMt4RGdobkBU43NTaThLA0=
+		TG5JG4fu+kgHV27LT7sUAO7aoRA=
 		</data>
 		<key>Headers/OpenAdSplashAd.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		a3ZndU9Y2oBupw+HgySn/K/TZ6E=
+		1aDEQasUdLB4hM56rXCdv3g8RxI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -359,11 +359,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			0SxiCrMaQslZs5Ni6h+kKLuOd18=
+			QO3Xe5JrIuDYgfL8CA1O51dLMOk=
 			</data>
 			<key>hash2</key>
 			<data>
-			Z+PPQ1eJ0zGxs4z6R6Zh43mKFCe+QESFR9b5pdvMkuE=
+			ExbAswk1q7gSZW7lBSFI/IAmbTnerTj0xB2fmi3Nr/0=
 			</data>
 		</dict>
 		<key>Headers/OpenAdRewardVideoAd.h</key>
@@ -414,11 +414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			uyFAhVMt4RGdobkBU43NTaThLA0=
+			TG5JG4fu+kgHV27LT7sUAO7aoRA=
 			</data>
 			<key>hash2</key>
 			<data>
-			fslCQv3hF3LnTbV7pmATTU/wmC6qavdcrKJA+9zshCY=
+			7JgYWCGhs7ojee0NVS3u/flR19FgAkc+wcEHbH8wrAc=
 			</data>
 		</dict>
 		<key>Headers/OpenAdSplashAd.h</key>
