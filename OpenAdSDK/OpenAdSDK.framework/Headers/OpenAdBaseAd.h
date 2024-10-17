@@ -30,6 +30,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 请求 ID
 @property(copy,nonatomic)NSString *reqId;
 
+- (void)win:(nullable NSDictionary*)ext;
+- (void)loss:(nullable NSDictionary*)ext;
+
 @end
 
 

@@ -40,6 +40,11 @@ NS_ASSUME_NONNULL_BEGIN
 /// - Parameter dislikeReason: 关闭原因,预留
 - (void)onBannerAdClose:(OpenAdBannerAd *)bannerAd withDislike:(NSString *)dislikeReason;
 
+
+/// 详情页关闭
+/// - Parameter bannerAd: 广告对象
+- (void)onBannerAdDidCloseOtherController:(OpenAdBannerAd *)bannerAd;
+
 @end
 
 @interface OpenAdBannerAd : OpenAdBaseAd
@@ -62,11 +67,19 @@ NS_ASSUME_NONNULL_BEGIN
 //跳转控制器
 @property(nonatomic, weak,readonly) UIViewController *rootViewController;
 
+
 /// 初始化广告对象
 /// - Parameter slotID: 广告位 id
 /// - Parameter rootViewController: 跳转控制器
 /// - Parameter adSize: 广告期望尺寸
 - (instancetype)initWithSlotID:(NSString *)slotID rootViewController:(UIViewController *)rootViewController adSize:(CGSize)adSize;
+
+/// 初始化自动轮播广告对象
+/// - Parameter slotID: 广告位 id
+/// - Parameter rootViewController: 跳转控制器
+/// - Parameter adSize: 广告期望尺寸
+/// - Parameter autoSwitchInterval: 自动轮播间隔[30-120]
+- (instancetype)initWithSlotID:(NSString *)slotID rootViewController:(UIViewController *)rootViewController adSize:(CGSize)adSize autoSwitchInterval:(int)autoSwitchInterval;
 
 ///加载广告
 - (void)loadAd;

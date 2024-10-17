@@ -39,6 +39,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)bannerAdDidClose:(id _Nonnull)adapter;
 
 
+/// 详情页关闭时调用
+/// @param adapter 当前适配器
+- (void)bannerAdDidCloseOtherController:(id _Nonnull)adapter;
+
+
 @end
 
 NS_ASSUME_NONNULL_END

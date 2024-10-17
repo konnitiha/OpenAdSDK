@@ -67,6 +67,11 @@ NS_ASSUME_NONNULL_BEGIN
 ///   - error: 失败原因
 - (void)onRewardVideoAdRewardDidFail:(OpenAdRewardVideoAd *)rewardVideoAd error:(NSError *_Nullable)error;
 
+
+/// 详情页关闭
+/// - Parameter rewardVideoAd: 广告对象
+- (void)onRewardVideoAdDidCloseOtherController:(OpenAdRewardVideoAd *)rewardVideoAd;
+
 @end
 
 

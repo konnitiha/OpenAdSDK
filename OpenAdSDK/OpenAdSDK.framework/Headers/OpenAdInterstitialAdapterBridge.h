@@ -42,6 +42,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param adapter 当前适配器
 - (void)interstitialAdDidClose:(id _Nonnull)adapter;
 
+/// 详情页关闭时调用
+/// @param adapter 当前适配器
+- (void)interstitialAdDidCloseOtherController:(id _Nonnull)adapter;
+
 
 /// 广告点击跳转使用的控制器
 - (UIViewController *)viewControllerForPresentingModalView;

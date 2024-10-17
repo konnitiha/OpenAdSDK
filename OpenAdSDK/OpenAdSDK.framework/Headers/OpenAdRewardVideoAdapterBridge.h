@@ -43,6 +43,11 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)rewardVideoAdDidPlayFinish:(id _Nonnull)adapter didFailWithError:(NSError *_Nullable)error;
 - (void)rewardVideoAdServerRewardDidSucceed:(id _Nonnull)adapter verify:(BOOL)verify;
 - (void)rewardVideoAdServerRewardDidFail:(id _Nonnull)adapter error:(NSError *_Nullable)error;
+
+
+/// 详情页关闭时调用
+/// @param adapter 当前适配器
+- (void)rewardVideoAdDidCloseOtherController:(id _Nonnull)adapter;
 @end
 
 NS_ASSUME_NONNULL_END

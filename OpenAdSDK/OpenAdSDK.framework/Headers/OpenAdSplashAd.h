@@ -35,6 +35,12 @@ NS_ASSUME_NONNULL_BEGIN
 /// - Parameter splashAd: 广告对象
 /// - Parameter dislikeReason: 关闭原因,预留
 - (void)onSplashAdClose:(OpenAdSplashAd *)splashAd withDislike:(NSString *)dislikeReason;
+
+
+/// 详情页关闭
+/// - Parameter splashAd: 广告对象
+- (void)onSplashAdDidCloseOtherController:(OpenAdSplashAd *)splashAd;
+
 @end
 
 

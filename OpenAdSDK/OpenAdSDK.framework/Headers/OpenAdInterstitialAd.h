@@ -38,6 +38,10 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)onInterstitialAdClose:(OpenAdInterstitialAd *)interstitialAd withDislike:(NSString *)dislikeReason;
 
 
+/// 详情页关闭
+/// - Parameter interstitialAd: 广告对象
+- (void)onInterstitialAdDidCloseOtherController:(OpenAdInterstitialAd *)interstitialAd;
+
 @end
 
 
@@ -57,6 +61,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 用于广告跳转的ViewController
 @property(nonatomic, weak,readonly) UIViewController *rootViewController;
+
+/// 自定义 window ,展示前传入
+@property(nonatomic, weak) UIWindow *customWindow;
 
 /// 初始化广告对象
 /// - Parameter slotID: 广告位 id

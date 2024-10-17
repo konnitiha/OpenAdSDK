@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = "OpenAdSDK"
-spec.version      = "5.21.2"
+spec.version      = "5.21.4"
 spec.summary      = "OpenAd广告聚合 SDK"
 spec.description  = <<-DESC
 OpenAd广告SDK是一个专为移动应用开发者设计的广告聚合和收益优化平台。它能够帮助开发者通过多种广告形式提高应用内广告的填充率和eCPM（每千次展示成本），从而增加广告收入

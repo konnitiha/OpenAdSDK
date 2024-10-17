@@ -47,6 +47,10 @@ NS_ASSUME_NONNULL_BEGIN
 ///   - dislikeReason: 关闭原因
 - (void)onNativeAdClosed:(OpenAdNativeAdManager *)nativeAdManager nativeAd:(OpenAdNativeAd *)nativeAd withDislike:(NSString *)dislikeReason;
 
+/// 详情页关闭
+/// - Parameter nativeAdManager: 广告对象
+- (void)onNativeAdDidCloseOtherController:(OpenAdNativeAdManager *)nativeAdManager;
+
 @end
 
 @interface OpenAdNativeAdManager : OpenAdBaseAd

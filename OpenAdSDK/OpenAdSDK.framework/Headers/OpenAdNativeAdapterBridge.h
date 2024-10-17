@@ -38,6 +38,10 @@ NS_ASSUME_NONNULL_BEGIN
 /// @param adapter 当前适配器
 - (void)nativeAdDidClose:(id _Nonnull)adapter withNativeAd:(id _Nullable)nativeAd;
 
+/// 详情页关闭时调用
+/// @param adapter 当前适配器
+- (void)nativeAdDidCloseOtherController:(id _Nonnull)adapter withNativeAd:(id _Nullable)nativeAd;
+
 @end
 
 NS_ASSUME_NONNULL_END
