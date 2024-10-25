@@ -56,6 +56,10 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property(nonatomic,strong)NSArray *CAIDList;
 
+
+///
+@property(assign,nonatomic)BOOL showExposureLog;
+
 @end
 
 
@@ -80,7 +84,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 0 不打印  默认
 /// 1 打印
 @property (nonatomic, assign,class) OpenAdLogLevel logLevel;
-
+ 
 @end
 
 NS_ASSUME_NONNULL_END

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = "OpenAdSDK"
-spec.version      = "5.21.6"
+spec.version      = "5.21.8"
 spec.summary      = "OpenAd广告聚合 SDK"
 spec.description  = <<-DESC
 OpenAd广告SDK是一个专为移动应用开发者设计的广告聚合和收益优化平台。它能够帮助开发者通过多种广告形式提高应用内广告的填充率和eCPM（每千次展示成本），从而增加广告收入
@@ -31,8 +31,8 @@ spec.subspec 'CsjAdapter' do |ss|
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdCsjAdapter.framework'
      #ss.dependency 'Ads-CN-Beta','>= 6.1.1.0', '<= 6.4.0.9', :subspecs => ['BUAdSDK', 'CSJMediation']
-     ss.dependency 'Ads-CN-Beta/BUAdSDK','>= 6.1.1.0', '<= 6.4.0.9'
-     ss.dependency 'Ads-CN-Beta/CSJMediation','>= 6.1.1.0', '<= 6.4.0.9'
+     ss.dependency 'Ads-CN-Beta/BUAdSDK','>= 6.1.1.0', '<= 6.5.0.0'
+     ss.dependency 'Ads-CN-Beta/CSJMediation','>= 6.1.1.0', '<= 6.5.0.0'
 end
 
 spec.subspec 'GdtAdapter' do |ss|
@@ -53,7 +53,7 @@ spec.subspec 'TanxAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdTanxAdapter.framework'
-     ss.dependency 'TanxSDK','>= 3.5.3', '<= 3.6.0'
+     ss.dependency 'TanxSDK','>= 3.5.3', '<= 3.6.1'
 end
 
 spec.subspec 'BaiduAdapter' do |ss|
@@ -67,7 +67,7 @@ spec.subspec 'JdAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdJdAdapter.framework'
-     ss.dependency 'JADYun','2.6.2'
+     ss.dependency 'JADYun','>= 2.6.2', '<= 2.6.4'
 end
   
 
