@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/OpenAdConst.h</key>
 		<data>
-		2VYITn8UgpOXk8Sb0Lq6BFgl1hU=
+		+0jz+c/QLFkffIY6r+N8H+piyfU=
 		</data>
 		<key>Headers/OpenAdCustomConfigAdapter.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/OpenAdPlatformInitConfig.h</key>
 		<data>
-		QO3Xe5JrIuDYgfL8CA1O51dLMOk=
+		J7kuqdfUWlYP3AjVnlpYKsjr/c0=
 		</data>
 		<key>Headers/OpenAdRewardVideoAd.h</key>
 		<data>
@@ -106,7 +106,7 @@
 		</data>
 		<key>Headers/OpenAdSDKManager.h</key>
 		<data>
-		zPehULXgJF3WGjjEk0bgGem9TRk=
+		eb3HFowOvN//1+IM93L8hvKbdXc=
 		</data>
 		<key>Headers/OpenAdSplashAd.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Y4qHTMW2KKeVMUSe9qFAG8mM/5Y=
+		uGCtSjUOsQRlKf4wym1/6SMoi30=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -227,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2VYITn8UgpOXk8Sb0Lq6BFgl1hU=
+			+0jz+c/QLFkffIY6r+N8H+piyfU=
 			</data>
 			<key>hash2</key>
 			<data>
-			Al/cEirulNUUzMaQbbwldRusDbz66mryWqn9PuOh4r8=
+			B1hxvVN0zVUORv7BEd6b35bzLmv+NXlXOwQSAHhetIE=
 			</data>
 		</dict>
 		<key>Headers/OpenAdCustomConfigAdapter.h</key>
@@ -359,11 +359,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			QO3Xe5JrIuDYgfL8CA1O51dLMOk=
+			J7kuqdfUWlYP3AjVnlpYKsjr/c0=
 			</data>
 			<key>hash2</key>
 			<data>
-			ExbAswk1q7gSZW7lBSFI/IAmbTnerTj0xB2fmi3Nr/0=
+			JCWkgZ9XMSdSqb4ey+wgElJTjgr3a3yw1D3A4LEyTj4=
 			</data>
 		</dict>
 		<key>Headers/OpenAdRewardVideoAd.h</key>
@@ -414,11 +414,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			zPehULXgJF3WGjjEk0bgGem9TRk=
+			eb3HFowOvN//1+IM93L8hvKbdXc=
 			</data>
 			<key>hash2</key>
 			<data>
-			UdgnyqdjGEPo+H/ha4tKtTX2J01RZuF6l7kXHengqXk=
+			3UCjYGc+/3foRyvLv8/XYkNVoT0KjSwqYvoSygBbzbY=
 			</data>
 		</dict>
 		<key>Headers/OpenAdSplashAd.h</key>

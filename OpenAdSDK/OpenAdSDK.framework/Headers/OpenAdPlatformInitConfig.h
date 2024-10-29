@@ -47,6 +47,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 禁止采集设备信息:0-不禁止，1-禁止，默认为0。
 @property (nonatomic, strong) NSNumber *forbiddenDeviceInfo;
 
+/// 禁止摇一摇 :0-不禁止，1-禁止，默认为0。
+@property(nonatomic,strong)NSNumber *forbiddenShake;
+
 /// 禁止 IDFA情况下,用户传入自定义字符串,透传三方广告平台
 @property(copy,nonatomic)NSString *customIDFA;
 

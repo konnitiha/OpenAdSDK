@@ -23,6 +23,8 @@ FOUNDATION_EXPORT NSString *kOpenAdExtraDicRewardVideoAdMuteKey;
 FOUNDATION_EXPORT NSString *kOpenAdExtraDicNativeAdLoadCountKey;
 FOUNDATION_EXPORT NSString *kOpenAdExtraDicNativeAdMuteKey;
 FOUNDATION_EXPORT NSString *kOpenAdExtraDicCustomWindowKey;
+FOUNDATION_EXPORT NSString *kOpenAdExtraDicForbiddenShakeKey;
+
 
 
 typedef NS_ENUM(NSInteger,OpenAdLogLevel) {

@@ -39,7 +39,8 @@ NS_ASSUME_NONNULL_BEGIN
 /// optional 禁止 IDFA情况下,用户传入自定义字符串,透传给三方广告平台
 @property(nonatomic,copy)NSString *customIDFA;
 
-
+/// optional 禁止摇一摇 :0-不禁止，1-禁止，默认为0。
+@property(nonatomic,strong)NSNumber *forbiddenShake;
 /// optional
 /*
  当前手机上的安装app列表,一个字符串数组
