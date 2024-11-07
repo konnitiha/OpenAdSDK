@@ -1,0 +1,6 @@
+framework module OpenAdQuMengAdapter {
+  umbrella header "OpenAdQuMengAdapter.h"
+  export *
+
+  module * { export * }
+}

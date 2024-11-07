@@ -75,6 +75,9 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, copy, readonly) NSString *customNativeAdapterClassName;
 
 
+
+///adx 专用
+@property (nonatomic, copy, readonly) NSString *host;
 //透传adx
 /// optional
 /*

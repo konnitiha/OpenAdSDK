@@ -42,6 +42,9 @@ typedef NS_ENUM(NSInteger,OpenAdADNChannel) {
     OpenAdADNChannel_Tanx = 5,
     OpenAdADNChannel_Baidu = 6,
     OpenAdADNChannel_Jd = 7,
+    OpenAdADNChannel_IFYL = 9,
+    OpenAdADNChannel_QuMeng = 10,
+    
 };
 
 // MARK: ======================= SDK =======================

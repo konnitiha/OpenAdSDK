@@ -30,6 +30,16 @@ NS_ASSUME_NONNULL_BEGIN
 /// 请求 ID
 @property(copy,nonatomic)NSString *reqId;
 
+
+/**
+ AdnChannel  见OpenAdConst.h
+ @{
+ @"winPrice":@"1500",
+ @"winAdnChannel",@"1",
+ @"secondPrice":@"1200",
+ @"secondAdnChannel",@"2"
+ }
+ */
 - (void)win:(nullable NSDictionary*)ext;
 - (void)loss:(nullable NSDictionary*)ext;
 

@@ -1,0 +1,6 @@
+framework module OpenAdiFLYAdapter {
+  umbrella header "OpenAdiFLYAdapter.h"
+  export *
+
+  module * { export * }
+}

@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = "OpenAdSDK"
-spec.version      = "5.21.9"
+spec.version      = "5.22.0"
 spec.summary      = "OpenAd广告聚合 SDK"
 spec.description  = <<-DESC
 OpenAd广告SDK是一个专为移动应用开发者设计的广告聚合和收益优化平台。它能够帮助开发者通过多种广告形式提高应用内广告的填充率和eCPM（每千次展示成本），从而增加广告收入
@@ -12,7 +12,7 @@ spec.source       = { :git => "https://github.com/konnitiha/OpenAdSDK.git", :tag
 spec.platform     = :ios, '12.0'
 spec.ios.deployment_target = '12.0'
 spec.requires_arc = true
-spec.frameworks = ["Foundation", "UIKit", "MobileCoreServices", "Security", "SystemConfiguration", "CoreTelephony", "AdSupport", "WebKit", "Accelerate", "CoreMotion","StoreKit", "AVFoundation", "MediaPlayer", "CoreMedia","CoreLocation", "AVKit","CoreGraphics"]
+spec.frameworks = ["Foundation", "UIKit", "MobileCoreServices", "Security", "SystemConfiguration", "CoreTelephony", "AdSupport", "WebKit", "Accelerate", "CoreMotion","StoreKit", "AVFoundation", "MediaPlayer", "CoreMedia","CoreLocation", "AVKit","CoreGraphics","CoreImage"]
 
 spec.user_target_xcconfig =   {'OTHER_LDFLAGS' => ['-lObjC'],'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64'}
 spec.libraries = ["z", "resolv.9", "sqlite3", "c++", "c++abi", "resolv"]
@@ -24,6 +24,7 @@ spec.subspec 'OpenAdSDK' do |ss|
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdSDK.framework'
      ss.resources = ['OpenAdSDK/OpenAdSDK.bundle']
+     
   end
   
 spec.subspec 'CsjAdapter' do |ss|
@@ -68,6 +69,27 @@ spec.subspec 'JdAdapter' do |ss|
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdJdAdapter.framework'
      ss.dependency 'JADYun','>= 2.6.2', '<= 2.6.4'
+end
+
+spec.subspec 'IFLYAdSDK' do |ss|
+     ss.ios.deployment_target = '12.0'
+     ss.source_files = 'OpenAdSDK/IFLYAdSDK/*'
+     ss.public_header_files = 'OpenAdSDK/IFLYAdSDK/*.h'
+     ss.resources = ['OpenAdSDK/IFLYAdSDK/IFLYPlayer.bundle']
+end
+
+spec.subspec 'IFLYAdapter' do |ss|
+     ss.dependency 'OpenAdSDK/OpenAdSDK'
+     ss.dependency 'OpenAdSDK/IFLYAdSDK'
+     ss.ios.deployment_target = '12.0'
+     ss.vendored_frameworks = 'OpenAdSDK/OpenAdiFLYAdapter.framework'
+end
+
+spec.subspec 'QuMengAdapter' do |ss|
+     ss.dependency 'OpenAdSDK/OpenAdSDK'
+     ss.ios.deployment_target = '12.0'
+     ss.vendored_frameworks = 'OpenAdSDK/OpenAdQuMengAdapter.framework'
+     ss.dependency 'QuMengAdSDK','1.2.0'
 end
   
 

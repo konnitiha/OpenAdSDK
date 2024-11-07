@@ -118,6 +118,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 应用key
 @property(strong,nonatomic)NSString *appKey;
 
+/// adx 专用
+@property(strong,nonatomic)NSString *host;
+
 /// 渠道号
 @property(assign,nonatomic)NSInteger channel;
 
