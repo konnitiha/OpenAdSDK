@@ -95,6 +95,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 返回广告总数
 @property(assign,nonatomic)int total;
 
+@property(assign,nonatomic)BOOL shake;
+@property(assign,nonatomic)int shakeLevel;
+@property(assign,nonatomic)BOOL adxAppend;
 @end
 
 

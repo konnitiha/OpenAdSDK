@@ -27,7 +27,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// optional 禁止CAID  0-不禁止，1-禁止，默认为0。 只适用于百度 (已废弃)
 @property(nonatomic,strong)NSNumber *forbiddenCAID;
 
-/// optional 禁止IDFA：0-不禁止，1-禁止，默认为0。只适用于GDT。
+/// optional 禁止IDFA：0-不禁止，1-禁止，默认为0。
 @property(nonatomic,strong)NSNumber *forbiddenIDFA;
 
 /// optional 禁止地理位置：0-不禁止，1-禁止，默认为0。
@@ -36,14 +36,16 @@ NS_ASSUME_NONNULL_BEGIN
 /// optional 禁止采集设备信息:0-不禁止，1-禁止，默认为0。
 @property(nonatomic,strong)NSNumber *forbiddenDeviceInfo;
 
-/// optional 禁止 IDFA情况下,用户传入自定义字符串,透传给三方广告平台
+/// optional 禁止 IDFA情况下,用户可传入自定义字符串,透传给三方广告平台
 @property(nonatomic,copy)NSString *customIDFA;
 
-/// optional 禁止摇一摇 :0-不禁止，1-禁止，默认为0。
-@property(nonatomic,strong)NSNumber *forbiddenShake;
+/// optional 禁止摇一摇 :0-不禁止，1-禁止，默认为0。 废弃,由服务端配置.联系运营同学修改.
+@property(nonatomic,strong)NSNumber *forbiddenShake DEPRECATED_ATTRIBUTE;
+
 /// optional
 /*
  当前手机上的安装app列表,一个字符串数组
+ 有助于提升填充率
  */
 @property(nonatomic,strong)NSArray<NSString *> *appList;
 
@@ -54,6 +56,7 @@ NS_ASSUME_NONNULL_BEGIN
  @"caid":@"Caid id",
  @"version":@"Caid version"
  }];
+ 有助于提升填充率
  */
 @property(nonatomic,strong)NSArray *CAIDList;
 

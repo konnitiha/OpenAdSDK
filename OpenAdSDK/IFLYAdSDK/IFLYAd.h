@@ -19,8 +19,6 @@
 #import "IFLYAdDeal.h"
 
 #pragma mark - biz
-//#import "IFLYBannerAd.h"
-//#import "IFLYInterstitialAd.h"
 #import "IFLYNativeAd.h"
 #import "IFLYVideoAd.h"
 #import "IFLYSplashAd.h"

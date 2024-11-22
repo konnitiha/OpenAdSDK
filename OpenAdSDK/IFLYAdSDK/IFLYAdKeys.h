@@ -45,6 +45,7 @@ extern IFLYAdKey const IFLYAdKeyBIDFloor;
  * 广告竞价参数
  * 实际成交价
  * 值：NSNumber
+ * 单位：元
  */
 extern IFLYAdKey const IFLYAdKeyAuctionPrice;
 /**
@@ -52,11 +53,6 @@ extern IFLYAdKey const IFLYAdKeyAuctionPrice;
  * 传入 IFLYAdDeal 数组
  */
 extern IFLYAdKey const IFLYAdKeyPMP;
-/**
- * 应用版本参数
- * 用于外部设置使用此 SDK 的应用包名
- */
-extern IFLYAdKey const IFLYAdKeyAPPBundle;
 /**
  * 应用版本参数
  * 用于外部设置使用此 SDK 的应用版本号
@@ -79,16 +75,6 @@ extern IFLYAdKey const IFLYAdKeyCurrency;
  */
 extern IFLYAdKey const IFLYAdKeyRequestTimeout;
 /**
- * 广告请求是否需要录音权限
- * BOOL 型 NSNumber
- */
-extern IFLYAdKey const IFLYAdKeyNeedAudio;
-/**
- * 广告请求是否需要地理位置权限
- * BOOL 型 NSNumber
- */
-extern IFLYAdKey const IFLYAdKeyNeedLocation;
-/**
  * 广告请求UA（传入的UA为浏览器UA）
  * 值：NSString
  */
@@ -108,6 +94,16 @@ extern IFLYAdKey const IFLYAdKeyCAID;
  * 值：NSArray 参数示例：[{"ver": "20230330", "caid": "75c7bc3754b3019c135b526cb8eb4420"}, {"ver": "20220111", "caid": "8799abe1c76805fab06ee3f98a3f704e"}]
  */
 extern IFLYAdKey const IFLYAdKeyCAIDList;
+/**
+ * 广告请求是否需要录音权限
+ * BOOL 型 NSNumber
+ */
+extern IFLYAdKey const IFLYAdKeyNeedAudio;
+/**
+ * 广告请求是否需要地理位置权限
+ * BOOL 型 NSNumber
+ */
+extern IFLYAdKey const IFLYAdKeyNeedLocation;
 /**
  * 广告请求是否关闭 HttpDNS 解析
  * BOOL 型 NSNumber(@(NO))

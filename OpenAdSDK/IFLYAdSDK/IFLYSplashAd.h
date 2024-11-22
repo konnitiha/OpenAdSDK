@@ -26,7 +26,7 @@ NS_ASSUME_NONNULL_BEGIN
 /**
  *  开屏广告错误回调
  *
- *  @param errorCode 错误码，详见接入手册
+ *  @param error  错误码，详见接入手册
  */
 - (void)onSplashAdFailed:(IFLYAdError *)error;
 
@@ -52,7 +52,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
- *  设置媒体自定义展示Window
+ *  设置媒体自定义展示 Window
  */
 @property (nonatomic, strong) UIWindow *customWindow;
 

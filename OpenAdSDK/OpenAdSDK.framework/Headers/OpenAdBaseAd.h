@@ -21,7 +21,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 控制器(在一次广告周期中 不可更改, 不然会引起未知错误)
 //@property(nonatomic, weak) UIViewController *rootViewController;
 
-///  单位:分
+/// 价格 单位:分  信息流广告 ecpm 是OpenAdNativeAd对象的 ecpm
 @property(assign,nonatomic,readonly)NSInteger ecpm;
 
 ///  场景 ID

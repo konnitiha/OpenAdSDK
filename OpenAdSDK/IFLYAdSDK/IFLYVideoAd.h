@@ -191,6 +191,21 @@ typedef NS_ENUM(NSInteger, IFLYVideoAdType) {
 - (void)stopPlay;
 
 /**
+ *  广告竞价胜出通知
+ *  详解：[必选]
+ *  TYPE=100，即获胜竞得
+ *  TYPE=101，原因是出价低即未获胜
+ *  TYPE=102，即未获胜原因是素材未审核
+ *  TYPE=103，即未获胜原因是素材审核拒绝
+ *  TYPE=104，即未获胜原因是竞价优先级低(如PDB>PD>RTB)
+ *  TYPE=105，竞价响应错误
+ *  TYPE=106，竞价响应超时
+ *
+ *  reason支持媒体侧自定义替换，上报的内容需要进行urlencode 当TYPE=103时尽量填写具体拒绝原因
+ */
+- (void)sendWinNoticeWithType:(NSNumber *)type reason:(NSString *)reason;
+
+/**
  * 广告退出落地页的回调
  */
 @property (nonatomic, copy) void (^ dismissBlock)(void);

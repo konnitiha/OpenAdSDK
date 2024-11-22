@@ -82,6 +82,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// optional
 /*
  当前手机上的安装app列表,一个字符串数组
+ 有助于提升填充率
  */
 @property(nonatomic,strong)NSArray<NSString *> *appList;
 
@@ -92,6 +93,8 @@ NS_ASSUME_NONNULL_BEGIN
  @"caid":@"Caid id",
  @"version":@"Caid version"
  }];
+ 
+ 有助于提升填充率
  */
 @property(nonatomic,strong)NSArray *CAIDList;
 

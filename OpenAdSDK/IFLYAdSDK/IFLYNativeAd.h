@@ -26,7 +26,7 @@
 /**
  *  原生广告错误回调
  *
- *  @param errorCode 错误码，详见接入手册
+ *  @param error 错误码，详见接入手册
  */
 - (void)onNativeAdFailed:(IFLYAdError *)error;
 
@@ -89,7 +89,7 @@
  *  广告点击调用方法
  *  详解：当用户点击广告时，开发者需调用本方法，系统会弹出内嵌浏览器、或内置AppStore、
  *      或打开系统Safari，来展现广告目标页面
- *      @param view         渲染出的广告结果页面
+ *      @param ext         渲染出的广告结果页面
  */
 - (BOOL)clickAdWithExt:(NSDictionary *)ext;
 
@@ -99,6 +99,21 @@
  *      @param disable         YES禁用deeplink跳转，NO启用
  */
 - (void)setDeepLinkDisable:(BOOL)disable;
+
+/**
+ *  广告竞价胜出通知
+ *  详解：[必选]
+ *  TYPE=100，即获胜竞得
+ *  TYPE=101，原因是出价低即未获胜
+ *  TYPE=102，即未获胜原因是素材未审核
+ *  TYPE=103，即未获胜原因是素材审核拒绝
+ *  TYPE=104，即未获胜原因是竞价优先级低(如PDB>PD>RTB)
+ *  TYPE=105，竞价响应错误
+ *  TYPE=106，竞价响应超时
+ *
+ *  reason支持媒体侧自定义替换，上报的内容需要进行urlencode 当TYPE=103时尽量填写具体拒绝原因
+ */
+- (void)sendWinNoticeWithType:(NSNumber *)type reason:(NSString *)reason;
 
 /**
  * 广告退出落地页的回调

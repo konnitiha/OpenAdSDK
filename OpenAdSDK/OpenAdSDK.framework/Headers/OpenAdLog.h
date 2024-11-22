@@ -11,7 +11,6 @@
 
 @class OpenAdLog;
 
-
 #define OPENAD_DEBUG_LOG(format,...)  [OpenAdLog customLogWithFunction:__FUNCTION__ lineNumber:__LINE__ formatString:[NSString stringWithFormat:format, ##__VA_ARGS__] level:OpenAdLogLevel_Debug]
 
 #define OpenAdLog(format,...)  [OpenAdLog customLogWithFunction:__FUNCTION__ lineNumber:__LINE__ formatString:[NSString stringWithFormat:format, ##__VA_ARGS__]]
