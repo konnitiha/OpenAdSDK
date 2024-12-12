@@ -22,6 +22,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 应用ID
 @property(strong,nonatomic)NSString *appId;
 
+/// 分组ID
+@property(assign,nonatomic)NSInteger gid;
+
 /// 广告位ID
 @property(strong,nonatomic)NSString *slotId;
 
@@ -155,6 +158,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 ///  请求类型
 @property(strong,nonatomic)NSString *reqType;
+
+/// 分组ID
+@property(assign,nonatomic)NSInteger gid;
 
 @end
 

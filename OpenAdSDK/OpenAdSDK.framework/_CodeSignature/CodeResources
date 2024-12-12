@@ -18,7 +18,7 @@
 		</data>
 		<key>Headers/OpenAdBaseAd.h</key>
 		<data>
-		GbZe/oVJNGMv/cI5ZVn/nEdrI7E=
+		efrjn9dQQx0uq7CwEJIVyiVuxbI=
 		</data>
 		<key>Headers/OpenAdBaseAdapter.h</key>
 		<data>
@@ -78,7 +78,7 @@
 		</data>
 		<key>Headers/OpenAdNativeAdapterBridge.h</key>
 		<data>
-		SBI7yywNz14LcroVIMtRVKVrT4E=
+		pio6SCUuLYWGILzGBbRBGG9duZY=
 		</data>
 		<key>Headers/OpenAdNativeVideoView.h</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/OpenAdWaterFallModel.h</key>
 		<data>
-		oC+UhwNqqEywTKCV95bIlSTktDA=
+		N0idHTvvAuEvq+KsyEGdrMyO68Y=
 		</data>
 		<key>Headers/UIView+OpenAdExposure.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		vuBpfBaBdyMyYuzV95EOt4Yd7S4=
+		cFaoOgGQv3bZLoHGiNcl9RyPtl0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -172,11 +172,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			GbZe/oVJNGMv/cI5ZVn/nEdrI7E=
+			efrjn9dQQx0uq7CwEJIVyiVuxbI=
 			</data>
 			<key>hash2</key>
 			<data>
-			yP6BFLRFMinV2XNzSc1UHmBjort7gfp+unASTwbeAOU=
+			Znzoh7eo4cVtlrwvf+GVAw23kt/BuINGijYYbvlpCts=
 			</data>
 		</dict>
 		<key>Headers/OpenAdBaseAdapter.h</key>
@@ -337,11 +337,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			SBI7yywNz14LcroVIMtRVKVrT4E=
+			pio6SCUuLYWGILzGBbRBGG9duZY=
 			</data>
 			<key>hash2</key>
 			<data>
-			kRH+ildzBlFPXDnuHeeFlviUpF50Y2A9/uV8MHGcbpI=
+			ByhDHsml0GvTBday3SQA94VSliJF/C2GE9zG9GuRqvo=
 			</data>
 		</dict>
 		<key>Headers/OpenAdNativeVideoView.h</key>
@@ -447,11 +447,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			oC+UhwNqqEywTKCV95bIlSTktDA=
+			N0idHTvvAuEvq+KsyEGdrMyO68Y=
 			</data>
 			<key>hash2</key>
 			<data>
-			DvgBrMoUq4Wfml67b0KV04Ihulv9fW3rXSuTkcG2fbw=
+			yUwWBhLmByDoXzvvnpFHRrmjXqBRGtum/b/9nCQVOx4=
 			</data>
 		</dict>
 		<key>Headers/UIView+OpenAdExposure.h</key>
