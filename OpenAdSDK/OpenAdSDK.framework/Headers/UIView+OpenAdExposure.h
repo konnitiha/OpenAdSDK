@@ -11,7 +11,6 @@
 static NSInteger kOpenAdEffectiveExposureTime = 0; //默认的有效曝光时间300ms
 static NSInteger kOpenAdEffectiveExposureRatio = 50;  //默认的有效曝光比例
 
-
 @interface UIView (OpenAdExposure)
 
 /**
