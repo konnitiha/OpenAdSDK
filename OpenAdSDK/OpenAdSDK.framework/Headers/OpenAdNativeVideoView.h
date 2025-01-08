@@ -9,13 +9,15 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-//针对特定 adn 适配
+//部分 adn 可控制播放
 @interface OpenAdNativeVideoView : UIView
 
 @property(nonatomic,getter=isPlaying)BOOL playing;
 - (void)play;
 - (void)pause;
 - (void)stop;
+
+- (void)mute:(BOOL)mute;
 
 @end
 

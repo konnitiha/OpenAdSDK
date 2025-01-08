@@ -66,11 +66,11 @@
 		</data>
 		<key>Headers/OpenAdMaterialMeta.h</key>
 		<data>
-		4lAOIDbrgb1ra7oh2RvYhFqNhBo=
+		vXFXpCeLxZsqQOffYgsL8Ql6QKE=
 		</data>
 		<key>Headers/OpenAdNativeAd.h</key>
 		<data>
-		0OQ3UypiRxHl1niwZN/moktNOgA=
+		Xvwb4vpVD80XOgFfEGAkW2oddUU=
 		</data>
 		<key>Headers/OpenAdNativeAdManager.h</key>
 		<data>
@@ -82,7 +82,7 @@
 		</data>
 		<key>Headers/OpenAdNativeVideoView.h</key>
 		<data>
-		aCJ+0s9s59AMVyBo+MCEOVSZiRQ=
+		v5ETMSAI0mgBBBjqaFVc6KzZtNA=
 		</data>
 		<key>Headers/OpenAdPlatformInitConfig.h</key>
 		<data>
@@ -102,7 +102,7 @@
 		</data>
 		<key>Headers/OpenAdSDK.h</key>
 		<data>
-		x/SSlKETqUc+NEsaOvJtRx4HBFE=
+		e2HjOMYkZmC+M4wUBWEamdeBthc=
 		</data>
 		<key>Headers/OpenAdSDKManager.h</key>
 		<data>
@@ -120,13 +120,13 @@
 		<data>
 		N0idHTvvAuEvq+KsyEGdrMyO68Y=
 		</data>
-		<key>Headers/UIView+OpenAdExposure.h</key>
+		<key>Headers/UIView+CloooudExposure.h</key>
 		<data>
-		fMZk9tlqvy2xDsx26cZ3+W32UjI=
+		zCla8L+VrJ0qf1QTp6WXBOL6H6A=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Seugl6I6TUqQ0r+8nTUjNVyEkzs=
+		rQxWUqlMrYRgC191wGubrmkdKXM=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -304,22 +304,22 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			4lAOIDbrgb1ra7oh2RvYhFqNhBo=
+			vXFXpCeLxZsqQOffYgsL8Ql6QKE=
 			</data>
 			<key>hash2</key>
 			<data>
-			qhjMXNtDfIEdVZ1q8AR1Q7AjE9PQ0CwBy8hNzeU7+Ns=
+			o5zV+WKGUlPvMPc+UHrxmabORkOTiJderYXBceLvIdQ=
 			</data>
 		</dict>
 		<key>Headers/OpenAdNativeAd.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			0OQ3UypiRxHl1niwZN/moktNOgA=
+			Xvwb4vpVD80XOgFfEGAkW2oddUU=
 			</data>
 			<key>hash2</key>
 			<data>
-			E99xkmOs42ekOs3rPh9aGltsRTgAJ0vB++WN8encRRY=
+			6oIKz/bOtKsVwmLmFNmseYRrCkN7qZGiUV6AaCznwXo=
 			</data>
 		</dict>
 		<key>Headers/OpenAdNativeAdManager.h</key>
@@ -348,11 +348,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aCJ+0s9s59AMVyBo+MCEOVSZiRQ=
+			v5ETMSAI0mgBBBjqaFVc6KzZtNA=
 			</data>
 			<key>hash2</key>
 			<data>
-			FqBI18mY9oAVIzo73mY3idjsxFafpD5duAfuYYwMKnQ=
+			wXKsvs0nLFcENK/iPZofxY4Ls0YF5Nl5j7egm06DvGo=
 			</data>
 		</dict>
 		<key>Headers/OpenAdPlatformInitConfig.h</key>
@@ -403,11 +403,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			x/SSlKETqUc+NEsaOvJtRx4HBFE=
+			e2HjOMYkZmC+M4wUBWEamdeBthc=
 			</data>
 			<key>hash2</key>
 			<data>
-			XG6rJvyvtnt8crZ7HilfsoFeESfKyvnB2N0pXjD4uBM=
+			jRtE58H804ddFrsPxZTtVMqpBIjUehrm3FEZVxBhT0I=
 			</data>
 		</dict>
 		<key>Headers/OpenAdSDKManager.h</key>
@@ -454,15 +454,15 @@
 			yUwWBhLmByDoXzvvnpFHRrmjXqBRGtum/b/9nCQVOx4=
 			</data>
 		</dict>
-		<key>Headers/UIView+OpenAdExposure.h</key>
+		<key>Headers/UIView+CloooudExposure.h</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			fMZk9tlqvy2xDsx26cZ3+W32UjI=
+			zCla8L+VrJ0qf1QTp6WXBOL6H6A=
 			</data>
 			<key>hash2</key>
 			<data>
-			RWxEfrJfw9yV4mpFJRy+99f/XNzjSb6nP+2042y2nhY=
+			MLbQB1QTYH/b6qBoYMxlHlGuBnVGSQhZ5ozEmweLCsM=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

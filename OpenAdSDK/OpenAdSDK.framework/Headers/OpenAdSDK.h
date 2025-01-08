@@ -32,9 +32,8 @@
 #import <OpenAdSDK/OpenAdNativeAdapterBridge.h>
 #import <OpenAdSDK/OpenAdRewardVideoAdapterBridge.h>
 #import <OpenAdSDK/OpenAdSplashAdapterBridge.h>
-
 #import <OpenAdSDK/OpenAdPlatformInitConfig.h>
 #import <OpenAdSDK/OpenAdWaterFallModel.h>
-#import <OpenAdSDK/UIView+OpenAdExposure.h>
+#import <OpenAdSDK/UIView+CloooudExposure.h>
 
 

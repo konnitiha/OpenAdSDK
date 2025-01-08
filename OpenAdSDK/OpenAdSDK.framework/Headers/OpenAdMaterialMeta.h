@@ -40,6 +40,8 @@ typedef NS_ENUM(NSInteger, OpenAdNativeAdMode) {
 };
 NS_ASSUME_NONNULL_BEGIN
 
+
+//广告素材 各元素 存在为空的可能,接入方可添加非空判断,增加容错
 @interface OpenAdMaterialMeta : NSObject
 
 /// 广告交互类型
@@ -96,7 +98,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 视频资源
 @property (nonatomic, copy, nullable) NSString *videoUrl;
 
-/// 媒体视图,三方 adn 提供
+/// 媒体视图,三方 adn 提供,如没有媒体视图,则为 nil
 @property (nonatomic, strong, nullable) OpenAdNativeVideoView *mediaView;
 
 /// 视频宽

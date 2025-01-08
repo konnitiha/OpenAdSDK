@@ -14,8 +14,10 @@ NS_ASSUME_NONNULL_BEGIN
 
 @interface OpenAdNativeAd : NSObject
 
+///  自渲染 广告组件需添加到 customRenderContainer 上
+@property(strong,nonatomic,nullable,readonly)UIView *customRenderContainer;
 
-/// 广告视图
+/// 模板渲染广告视图
 @property(strong,nonatomic,nullable)UIView *canvasView;
 
 /// 物料信息
@@ -41,14 +43,14 @@ NS_ASSUME_NONNULL_BEGIN
 
 /// 注册 容器视图和点击视图
 /// - Parameters:
-///   - containerView: 容器视图
+///   - containerView: 容器视图,即上面customRenderContainer
 ///   - clickableViews: 可点击视图
 - (void)registerContainer:(__kindof UIView *)containerView
        withClickableViews:(NSArray<__kindof UIView *> *_Nullable)clickableViews;
 
-/// 注册 容器视图,点击视图,关闭视图 (部分 ADN 支持 :京媒)
+/// 注册 容器视图,点击视图,关闭视图 (部分 ADN 支持 )
 /// - Parameters:
-///   - containerView: 容器视图
+///   - containerView: 容器视图,即上面customRenderContainer
 ///   - clickableViews: 可点击视图
 ///   - closableViews: 关闭视图
 - (void)registerContainer:(__kindof UIView *)containerView
