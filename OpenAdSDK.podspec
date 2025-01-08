@@ -89,7 +89,7 @@ spec.subspec 'QuMengAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdQuMengAdapter.framework'
-     ss.dependency 'QuMengAdSDK','>= 1.2.0'
+     ss.dependency 'QuMengAdSDK','1.2.0'
 end
   
 
