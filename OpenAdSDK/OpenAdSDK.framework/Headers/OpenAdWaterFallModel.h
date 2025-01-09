@@ -121,6 +121,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// 第三方APPID
 @property(copy,nonatomic)NSString *appId;
 
+///  媒体 id
+@property(strong,nonatomic)NSString *account;
+
 /// 应用key
 @property(strong,nonatomic)NSString *appKey;
 

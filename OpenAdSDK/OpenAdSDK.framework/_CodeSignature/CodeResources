@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/OpenAdConst.h</key>
 		<data>
-		KHGPqpY1SAnCVt0M9hUsRi8mYTE=
+		zd/Xudb3kZiDJy+3UEoVLucO1/0=
 		</data>
 		<key>Headers/OpenAdCustomConfigAdapter.h</key>
 		<data>
@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/OpenAdPlatformInitConfig.h</key>
 		<data>
-		nkYwdlP4cwHx0UkOWGoLLnFM98c=
+		fbyVbMGjCR5uSiuWv6/aKOTPiuU=
 		</data>
 		<key>Headers/OpenAdRewardVideoAd.h</key>
 		<data>
@@ -118,7 +118,7 @@
 		</data>
 		<key>Headers/OpenAdWaterFallModel.h</key>
 		<data>
-		N0idHTvvAuEvq+KsyEGdrMyO68Y=
+		YTU+GBJWoCsNFP5R+TRL+3Iy7hg=
 		</data>
 		<key>Headers/UIView+CloooudExposure.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		rQxWUqlMrYRgC191wGubrmkdKXM=
+		AWTxeL5zDXSSg/zXj/NPKJsuUII=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -227,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			KHGPqpY1SAnCVt0M9hUsRi8mYTE=
+			zd/Xudb3kZiDJy+3UEoVLucO1/0=
 			</data>
 			<key>hash2</key>
 			<data>
-			7+FZG/H1a9SNPGGLT18lgqrQc0lnaUWGm1WSFSGcDpg=
+			GaVjZMIiciFrYtZ+5QrAJKCiwiVwvd3NAprEJl7ikeU=
 			</data>
 		</dict>
 		<key>Headers/OpenAdCustomConfigAdapter.h</key>
@@ -359,11 +359,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			nkYwdlP4cwHx0UkOWGoLLnFM98c=
+			fbyVbMGjCR5uSiuWv6/aKOTPiuU=
 			</data>
 			<key>hash2</key>
 			<data>
-			VY5xTQJ4Hqa8gdhY4XyZHlr2+tEbj9lgcAw59+ftQ7k=
+			7g2nssVOwpLoGJ1+1e3fGijnlU2H+B6LrBgDn2wHkLw=
 			</data>
 		</dict>
 		<key>Headers/OpenAdRewardVideoAd.h</key>
@@ -447,11 +447,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			N0idHTvvAuEvq+KsyEGdrMyO68Y=
+			YTU+GBJWoCsNFP5R+TRL+3Iy7hg=
 			</data>
 			<key>hash2</key>
 			<data>
-			yUwWBhLmByDoXzvvnpFHRrmjXqBRGtum/b/9nCQVOx4=
+			VldC3am642pw250rA6HZ1VF5kBdjcZsHnpTJNXfg60E=
 			</data>
 		</dict>
 		<key>Headers/UIView+CloooudExposure.h</key>

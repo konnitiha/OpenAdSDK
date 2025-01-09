@@ -44,6 +44,7 @@ typedef NS_ENUM(NSInteger,OpenAdADNChannel) {
     OpenAdADNChannel_Jd = 7,
     OpenAdADNChannel_IFYL = 9,
     OpenAdADNChannel_QuMeng = 10,
+    OpenAdADNChannel_Bbt = 12,
     
 };
 

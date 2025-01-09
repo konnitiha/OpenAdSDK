@@ -17,6 +17,9 @@ NS_ASSUME_NONNULL_BEGIN
 /// appID
 @property (nonatomic, copy, readonly) NSString *appID;
 
+///  媒体 ID
+@property (nonatomic, copy, readonly) NSString *account;
+
 /// appKey
 @property (nonatomic, copy, readonly) NSString *appKey;
 
