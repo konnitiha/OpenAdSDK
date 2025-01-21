@@ -1,0 +1,6 @@
+framework module OpenAdBbtAdapter {
+  umbrella header "OpenAdBbtAdapter.h"
+  export *
+
+  module * { export * }
+}

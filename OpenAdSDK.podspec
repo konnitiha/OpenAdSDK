@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 spec.name         = "OpenAdSDK"
-spec.version      = "5.23.4"
+spec.version      = "5.24.0"
 spec.summary      = "OpenAd广告聚合 SDK"
 spec.description  = <<-DESC
 OpenAd广告SDK是一个专为移动应用开发者设计的广告聚合和收益优化平台。它能够帮助开发者通过多种广告形式提高应用内广告的填充率和eCPM（每千次展示成本），从而增加广告收入
@@ -40,7 +40,7 @@ spec.subspec 'GdtAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdGdtAdapter.framework'
-     ss.dependency 'GDTMobSDK','>= 4.15.02'
+     ss.dependency 'GDTMobSDK','>= 4.15.21'
 end
 
 spec.subspec 'KsAdapter' do |ss|
@@ -54,7 +54,7 @@ spec.subspec 'TanxAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdTanxAdapter.framework'
-     ss.dependency 'TanxSDK','>= 3.6.2'
+     ss.dependency 'TanxSDK','>= 3.6.7'
 end
 
 spec.subspec 'BaiduAdapter' do |ss|
@@ -89,7 +89,7 @@ spec.subspec 'QuMengAdapter' do |ss|
      ss.dependency 'OpenAdSDK/OpenAdSDK'
      ss.ios.deployment_target = '12.0'
      ss.vendored_frameworks = 'OpenAdSDK/OpenAdQuMengAdapter.framework'
-     ss.dependency 'QuMengAdSDK','1.2.0'
+     ss.dependency 'QuMengAdSDK','1.3.0'
 end
   
 
