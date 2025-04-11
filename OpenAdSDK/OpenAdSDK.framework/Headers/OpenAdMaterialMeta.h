@@ -50,7 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 /// 媒体图片数组
 @property (nonatomic, strong, nullable) NSArray<NSString *> *imageAry;
 
-/// 广告 logo 图片
+/// 广告 logo 链接
 @property (nonatomic, copy, nullable) NSString *icon;
 
 /// 广告 logo image

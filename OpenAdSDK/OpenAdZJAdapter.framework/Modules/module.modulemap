@@ -1,0 +1,6 @@
+framework module OpenAdZJAdapter {
+  umbrella header "OpenAdZJAdapter.h"
+  export *
+
+  module * { export * }
+}
