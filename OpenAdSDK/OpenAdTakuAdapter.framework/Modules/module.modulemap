@@ -1,0 +1,6 @@
+framework module OpenAdTakuAdapter {
+  umbrella header "OpenAdTakuAdapter.h"
+  export *
+
+  module * { export * }
+}

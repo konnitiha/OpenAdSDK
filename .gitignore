@@ -3,3 +3,5 @@ Podfile.lock
 build/
 SDK打包/
 OpenAdSDK.podspec
+OpenAdSDK-DB.podspec
+*.podspec
