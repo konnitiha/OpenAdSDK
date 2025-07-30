@@ -38,7 +38,7 @@
 		</data>
 		<key>Headers/OpenAdConst.h</key>
 		<data>
-		2ZmP0O/DQBc2yH1Fi/FZ5Dm6RK0=
+		DUchaVsa95TMs9pLyfOIoPXaH9Q=
 		</data>
 		<key>Headers/OpenAdCustomConfigAdapter.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Headers/OpenAdSplashAd.h</key>
 		<data>
-		EAyjSkQlxVkrMUDkWP8Ns9ttnNs=
+		gzYkVAXC9qd75drvsWmmPKLxxGU=
 		</data>
 		<key>Headers/OpenAdSplashAdapterBridge.h</key>
 		<data>
@@ -126,7 +126,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		jJBW1wceFv6FMz3QRNgI/ONvbko=
+		fSNmxMWf/5xi3L7rjtOkyro7z00=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -227,11 +227,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2ZmP0O/DQBc2yH1Fi/FZ5Dm6RK0=
+			DUchaVsa95TMs9pLyfOIoPXaH9Q=
 			</data>
 			<key>hash2</key>
 			<data>
-			1aUlO0OZKHr5ooJiL+dqq0WSh3ololdp5IiJCwUMzdM=
+			Azf8Z0t0v6ZEAFmr1Iuv4FDQoSedOMJqgShkXPCMjdk=
 			</data>
 		</dict>
 		<key>Headers/OpenAdCustomConfigAdapter.h</key>
@@ -425,11 +425,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			EAyjSkQlxVkrMUDkWP8Ns9ttnNs=
+			gzYkVAXC9qd75drvsWmmPKLxxGU=
 			</data>
 			<key>hash2</key>
 			<data>
-			c3X4HtE0PF8IJyvHL36vok3fr/v6IsN1C4dRDq/4eY0=
+			31dIkypxR9/Uh8HUeP9Y1Ob2VF/5sCi3QIIkZjPrqM4=
 			</data>
 		</dict>
 		<key>Headers/OpenAdSplashAdapterBridge.h</key>

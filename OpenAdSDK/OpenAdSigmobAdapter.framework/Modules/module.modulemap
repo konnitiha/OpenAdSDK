@@ -1,0 +1,6 @@
+framework module OpenAdSigmobAdapter {
+  umbrella header "OpenAdSigmobAdapter.h"
+  export *
+
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module OpenAdCxhAdapter {
+  umbrella header "OpenAdCxhAdapter.h"
+  export *
+
+  module * { export * }
+}
